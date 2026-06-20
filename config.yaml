@@ -1,0 +1,43 @@
+genres:
+  - country
+  - classical
+  - electronic dance music
+  - dance
+  - folk
+  - indie folk
+  - house
+  - hip-hop
+  - metal
+  - jazz
+  - pop
+  - punk
+  - indie pop
+  - k-pop
+  - rock
+  - alternative rock
+  - indie rock
+  - rap
+  - r&b
+  - soul
+
+
+
+tiers:
+  underground:
+    max_followers: 10000
+    #label: "Underground"
+  emerging:
+    min_followers: 10000
+    max_followers: 100000
+    #label: "Emerging"
+  niche:
+    min_followers: 100000
+    max_followers: 500000
+    #label: "Niche"
+  established:
+    min_followers: 500000
+    max_followers: 2000000
+    #label: "Established"
+  mainstream:
+    min_followers: 2000000
+    #label: "Mainstream"
